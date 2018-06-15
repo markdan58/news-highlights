@@ -10,7 +10,7 @@ def index():
     '''
 
     message = 'News'
-    title = 'Home - Welcome to the world\'s number one news site'
+    title = 'Welcome to the world\'s number one news site'
     return render_template('index.html',title = title,message = message)
 
 
