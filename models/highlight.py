@@ -1,4 +1,4 @@
-class News:
+class Highlight:
     '''
     highlight class to define objects
     '''
