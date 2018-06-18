@@ -1,0 +1,23 @@
+{% extends 'bootstrap/base.html'%}
+
+<!DOCTYPE html>
+<html>
+<head>
+	{% if title %}
+	<title> {{ title }} </title>
+	{% else %} 
+	<title> News </title>
+	{% endif %}
+</head>
+<body>
+
+	{% block navbar %}
+    	{% include 'navbar.html' %}
+	{% endblock %}
+	
+	{% block content %}
+
+	{% endblock %}
+
+</body>
+</html>
