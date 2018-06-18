@@ -1,0 +1,22 @@
+{% extends 'base.html'%}
+<!-- Content block -->
+{% block content %}
+<div class="container">
+
+    <!-- Poster background -->
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 imagePath" style="background: url({{news.image}}) no-repeat center center">
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 news-details">
+            <h3>{{ movie.title }}</h3>
+
+            <p class="overview"> {{ news.overview }}</p>
+            <p class="ratings"> <b> {{ news.category }}</b> - <i>{{ news.country}}  </i> </p>
+
+
+        </div>
+    </div>
+
+</div>
+{% endblock %}
