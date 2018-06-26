@@ -9,7 +9,7 @@ from ..models import Article, Source
 def index():
     """ View root page function that returns the index page and it's data """
 
-    # Getting popular movie
+    # Getting popular headlines
     headlines = get_articles('top-headlines', 'business')
     all_sources = get_sources('sources', '')
     print(headlines)
