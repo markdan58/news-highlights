@@ -30,7 +30,7 @@
 * css
 
 ## Support and contact details
-For assistance and Queries please email maxwellharon54@gmail.com.
+For assistance and Queries please create an issue.
 
 ### License
 *MIT 2018.*
