@@ -1,5 +1,4 @@
 # News-Highlights
-## Maxwell Haron
 #### News-Highlights is a Flask based application which displays the latest news in various categories such as business and sports.
 #### The live link to News-highlights is :
  19th June 2018 10.47pm
@@ -35,4 +34,4 @@ For assistance and Queries please email maxwellharon54@gmail.com.
 
 ### License
 *MIT 2018.*
-Copyright (c) 2018 **Maxwell Haron**
+Copyright (c) 2018
