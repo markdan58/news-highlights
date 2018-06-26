@@ -1,5 +1,7 @@
 class Article:
-    """ Article class to define Article Objects"""
+    """ 
+    Article class to define Article Objects
+    """
 
     def __init__(self, source, author, title, description, url, image_url, publish_time):
 
@@ -12,7 +14,9 @@ class Article:
         self.publish_time = publish_time
 
 class Source:
-    """ Source class to define source objects"""
+    """ 
+    Source class to define source objects
+    """
 
     def __init__(self, id, name, description, url, category, country):
 

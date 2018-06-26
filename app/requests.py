@@ -10,7 +10,9 @@ base_url = app.config["NEWS_API_BASE_URL"]
 
 
 def get_articles(endpoint, category):
-    """ function that gets the headlines on request """
+    """ 
+    function that gets the headlines on request 
+    """
 
     get_articles_url = base_url.format(endpoint, category, '', api_key)
 
@@ -54,7 +56,9 @@ def process_results(articles_list):
 
 
 def get_sources(endpoint, category):
-    """ function that gets the sources on request """
+    """ 
+    function that gets the sources on request 
+    """
 
     get_sources_url = base_url.format(endpoint, category, '', api_key)
 

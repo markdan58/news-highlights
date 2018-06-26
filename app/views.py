@@ -4,7 +4,9 @@ from .requests import get_articles, get_sources
 
 @app.route('/')
 def index():
-    """ View root page function that returns the index page and it's data """
+    """ 
+    View root page function that returns the index page and it's data 
+    """
 
     # Getting popular movie
     headlines = get_articles('top-headlines', 'business')
