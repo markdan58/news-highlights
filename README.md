@@ -12,7 +12,17 @@ https://n3ws-app.herokuapp.com/
 ####
 #### Installation
 * Clone or download the the app from this link https://github.com/newtonkiragu/news-highlights
-* Install a virtual environment in your project folder by running the following commands `$sudo apt-get install python3.6-venv` and `$ python3.6 -m venv virtual`.To activate the virtual environment run `$ source virtual/bin/activate`
+* Install a virtual environment in your project folder by running the following commands 
+
+```$
+sudo apt-get install python3.6-venv
+```
+
+```$ 
+python3.6 -m venv virtual
+```
+
+To activate the virtual environment run `$ source virtual/bin/activate`
 * To install Flask,run the following command `$ source virtual/bin/activate` then `python3.6 -m pip install flask`
 * In the terminal,run the app by running the following command `python3.6 run.py`
 * Run the command ng-serve to allow the app to be hosted by a local server and run.
