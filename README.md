@@ -16,7 +16,7 @@ https://n3ws-app.herokuapp.com/
 * To install Flask,run the following command `$ source virtual/bin/activate` then `python3.6 -m pip install flask`
 * In the terminal,run the app by running the following command `python3.6 run.py`
 * Run the command ng-serve to allow the app to be hosted by a local server and run.
-* Go to your browser and open the link http:///localhost:5000
+* Go to your browser and open the link http://localhost:5000
 * Enjoy the App :-)...
 ## Known Bugs
 * If you run the application in any version of python lower than 3.5.6 you will experiece errors...Alot of them
