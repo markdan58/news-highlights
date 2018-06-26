@@ -1,12 +1,13 @@
 from flask import render_template
-from app import app
-from .requests import get_articles, get_sources
+# from app import app
 
-@app.route('/')
+from . import main
+from ..requests import get_articles, get_sources
+from ..models import Article, Source
+
+@main.route('/')
 def index():
-    """ 
-    View root page function that returns the index page and it's data 
-    """
+    """ View root page function that returns the index page and it's data """
 
     # Getting popular movie
     headlines = get_articles('top-headlines', 'business')
