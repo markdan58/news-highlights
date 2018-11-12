@@ -1,11 +1,13 @@
 import os
 
+
 class Config:
     '''
     General configuration parent class
     '''
     NEWS_API_KEY = '9a26301b6d9a4146830585e0ffb8da70'
     NEWS_API_BASE_URL = 'https://newsapi.org/v2/{}?language=en&category={}&q={}&apiKey={}'
+
 
 class ProdConfig(Config):
     '''
@@ -16,6 +18,7 @@ class ProdConfig(Config):
     '''
     pass
 
+
 class TestConfig(Config):
     '''
     Testing configuration child class
@@ -25,10 +28,11 @@ class TestConfig(Config):
     '''
     pass
 
+
 class DevConfig(Config):
     '''
     Development configuration child class
-    
+
     Args:
         Config: The parent configuration class with General configuration settings
     '''
